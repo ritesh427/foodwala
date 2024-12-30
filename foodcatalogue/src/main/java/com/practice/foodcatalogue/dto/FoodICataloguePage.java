@@ -12,6 +12,6 @@ import java.util.List;
 @Data
 public class FoodICataloguePage {
 
-    private List<FoodItem> foodItems;
+    private List<FoodItem> foodItemsList;
     private Restaurant restaurant;
 }

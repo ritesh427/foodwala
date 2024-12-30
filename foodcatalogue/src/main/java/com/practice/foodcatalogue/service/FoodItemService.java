@@ -41,7 +41,7 @@ public class FoodItemService {
 
     private FoodICataloguePage createFoodCatalougePage(List<FoodItem> foodItems, Restaurant restaurant) {
         FoodICataloguePage foodICataloguePage = new FoodICataloguePage();
-        foodICataloguePage.setFoodItems(foodItems);
+        foodICataloguePage.setFoodItemsList(foodItems);
         foodICataloguePage.setRestaurant(restaurant);
         return foodICataloguePage;
     }
